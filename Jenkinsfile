@@ -4,6 +4,7 @@ pipeline{
         stage('Hello') {
             steps {
                 echo 'Hello from Jenkinsfile'
+                echo 'Second commit from Jenkinsfile'
             }
         }
     }
