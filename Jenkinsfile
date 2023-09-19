@@ -7,7 +7,12 @@ pipeline{
                 echo 'Second commit from Jenkinsfile'
             }
         }
-        stage('Hello') {
+        stage('Testing 1') {
+            steps {
+                echo 'Testing auto build from Jenkinsfile'
+            }
+        }
+        stage('Testing 2') {
             steps {
                 echo 'Testing auto build from Jenkinsfile'
             }
