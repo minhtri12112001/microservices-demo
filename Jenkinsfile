@@ -17,6 +17,11 @@ pipeline{
                 echo 'Testing auto build from Jenkinsfile'
             }
         }
+        stage('Testing 3') {
+            steps {
+                echo 'Testing auto build from Jenkinsfile'
+            }
+        }
     }
 
 }
